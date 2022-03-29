@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-// import { CgChevronDown } from "react-icons/cg";
-// import { dropdown } from "../utils/DropdownData";
 import TopNav from "./TopNav";
 import "./styles/Navigation.css";
 import BurgerMenu from "./BurgerMenu";

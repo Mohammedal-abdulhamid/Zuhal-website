@@ -32,15 +32,13 @@
   }
 }
 .logo {
-  height: 60px;
-  position: fixed;
-  top: 60px;
-  left: 0;
+  height: 120px;
   border-radius: 50px;
+  margin-top: -20px;
+  position: relative;
+  background-color: transparent;
 }
 .logo-img {
-  height: 80px;
-  display: grid;
   align-items: center;
 }
 
@@ -121,16 +119,13 @@
 .dropbtn {
   background-color: transparent;
 }
-/* .dropdown-content a:hover {
-  text-transform: underline;
-} */
 .navbar {
   display: flex;
   justify-content: space-between;
   background-color: var(--primary);
   border-bottom: lightgrey solid 0.5px;
   background-color: transparent;
-  height: 70px;
+  height: 85px;
 }
 
 .burger-menu {
